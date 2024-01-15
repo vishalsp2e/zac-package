@@ -22,7 +22,8 @@ This function allow the frontend (DAPP) user to open the extension wallet
 When a user wants to create an asset by signing up for a transaction, he or she can utilise this function, which requires 5 details.
 1) e (This is a constant parameter that can simply be written as e)
 2) id (Any unique alpha numeric character can be used)
-3) surnames (Given name)
+3) surnames (Any name)
 4) assetDigest (Enter any unique alpha numeric character here)
 5) enrollmentId (This enrollment Id is available after you have a KALP- Wallet account)
-
+You Can get the enrollment id by this command
+const enrollmentId = window.myExtensionObject?.data;
