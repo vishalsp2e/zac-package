@@ -1,6 +1,6 @@
 {
   "name": "zac-package",
-  "version": "1.0.14",
+  "version": "1.0.24",
   "description": "This is the main package of KALP WALLET Extension.",
   "main": "index.js",
   "scripts": {
